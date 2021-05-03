@@ -1,0 +1,88 @@
+.body {
+    background-color: white;
+    
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container_menu {
+    font-size: 18px;
+    font-family: sans-serif;
+   color: white;
+   background-color: grey;
+   
+   display: flex;
+   justify-content: right;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.container_menu a {
+    display: flex;
+    justify-content: space-around;
+    right: 0px;
+    color: white;
+    text-decoration-line: none;
+    width: 6rem;
+}
+
+.container_header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    line-height: 0px;
+    padding-top: 100px;
+    background-color: lightgrey;
+    background-image: url('../img/welcome.jpg');
+    background-position: 100% 50%;
+    height: 20rem;
+    font-size: 2rem;
+}
+
+.container_header h1 {
+    font-size: 4rem;
+}
+
+.container_ploth1 {
+    background: white;
+    margin: 0;
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-plot {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: 10px;
+
+}
+
+
+.container-plot img {
+    max-height: 400px;
+    max-width: 200px;
+}
+
+.plot-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-right: 300px;
+    line-height: 2rem;
+}
+
+.strong {
+    font-size: 25px;
+}
